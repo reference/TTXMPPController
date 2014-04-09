@@ -120,7 +120,7 @@
 
 - (BOOL)connect
 {
-    if ([StringUtils isBlank:self.username] || [StringUtils isBlank:self.password])
+    if (!self.username || self.username.length == 0 || !self.password || self.password.length == 0)
     {
         [self disconnect];
         return NO;
