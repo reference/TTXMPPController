@@ -1,8 +1,10 @@
 TTXMPPController
 ================
 
-XMPP handle.It's easy use.
+企业级xmpp应用的封装
 
-All you need to do is just drop the fucking files into your project and then config your parameters for the host.
+用法
+====
 
-Thanks to the team.We build this.
+把文件加入工程中，配置xmpp服务器的地址和端口，调整登录的jid即可。
+
